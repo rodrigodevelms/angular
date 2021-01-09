@@ -1,0 +1,37 @@
+.main-footer {
+  background-image: url("../../../../assets/cities/city_black_white_focus.jpg");
+  color: white;
+  font-family: Muli Helvetica Neue Arial sans-serif !important;
+  font-size: 12px;
+  padding-top: 1.5%;
+  margin: 0 0 5px 0;
+  bottom: 0;
+  width: 100%;
+  height: 60%;
+  position: relative;
+  border: none;
+  opacity: 0.9;
+}
+
+.footer-align {
+  margin: 10px;
+}
+
+.logo-black-white {
+  max-height: 120px;
+  max-width: 120px;
+}
+
+.icon-footer {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-size: 25px;
+  color: cornflowerblue;
+}
+
+.text-icon {
+  margin-left: 5px;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+}

@@ -1,0 +1,18 @@
+.properties {
+  margin: 60px 20px 20px 0;
+  height: auto;
+}
+
+.card-propertie {
+  max-width: 300px;
+  box-shadow: 3px 1px 20px 1px #cccccc;
+}
+
+.example-header-image {
+  /*background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');*/
+  /*background-size: cover;*/
+}
+
+.card-action {
+margin-left: 35%;
+}

@@ -1,0 +1,31 @@
+<div class="properties">
+
+  <mat-grid-list cols="3" rowHeight="500px">
+    <mat-grid-tile *ngFor="let each_properties of properties">
+
+      <mat-card class="card-propertie">
+
+        <mat-card-header>
+
+          <div mat-card-avatar class="example-header-image"></div>
+          <mat-card-title> {{each_properties.title}} </mat-card-title>
+          <mat-card-subtitle> {{each_properties.subtitle}} </mat-card-subtitle>
+
+        </mat-card-header>
+
+        <img mat-card-image [src]="each_properties.image">
+
+        <mat-card-content>
+          <p> {{each_properties.content}} </p>
+        </mat-card-content>
+
+        <mat-card-actions class="card-action">
+          <button mat-raised-button color="warn">Detalhes</button>
+        </mat-card-actions>
+      </mat-card>
+
+    </mat-grid-tile>
+
+  </mat-grid-list>
+
+</div>
