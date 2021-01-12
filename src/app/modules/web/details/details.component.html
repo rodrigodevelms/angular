@@ -1,0 +1,14 @@
+<div>
+  <div class="main">
+
+    <div *ngFor="let image of immobile.photos">
+      <mat-grid-list cols="1">
+        <img class="each_image" [src]=image>
+      </mat-grid-list>
+    </div>
+
+    <p>{{immobile.text}}</p>
+
+    <button class="btn_back" mat-raised-button color="warn"><a [routerLink]="['/home']">Voltar</a></button>
+  </div>
+</div>

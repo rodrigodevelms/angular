@@ -1,4 +1,5 @@
 import {Properties} from "../../app/modules/web/section-properties/model/properties";
+import {Immobile} from "../../app/modules/web/details/model/immobile";
 
 export class Database {
 
@@ -85,6 +86,27 @@ export class Database {
         content: "test",
         buttonAccessUrl: "oi"
       }
+    ]
+  }
+
+  public fun_immobileDetails(): Immobile[] {
+    return [
+      {
+        id: 1,
+        photos: [
+          "../../../../assets/properties/Jardim_de_alah_01.png",
+          "../../../../assets/properties/jardim_de_alah_02.jpeg"
+        ],
+        text: "Coisa Linda de DEUS",
+      },
+      {
+        id: 2,
+        photos: [
+          "../../../../assets/properties/Jardim_de_alah_01.png",
+          "../../../../assets/properties/jardim_de_alah_02.jpeg"
+        ],
+        text: "Coisa Linda de DEUS Dois",
+      },
     ]
   }
 }

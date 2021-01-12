@@ -1,0 +1,17 @@
+.each_image {
+  max-width: 650px;
+  max-height: 6500px;
+  margin: 30px;
+}
+
+.main {
+  text-align: center;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.btn_back {
+  margin: 35px;
+}

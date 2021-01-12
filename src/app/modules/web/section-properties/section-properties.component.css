@@ -16,3 +16,8 @@
 .card-action {
 margin-left: 35%;
 }
+
+a {
+  color: white;
+  text-decoration: none;
+}

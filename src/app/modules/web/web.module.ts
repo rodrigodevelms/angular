@@ -8,11 +8,14 @@ import {MatCardModule} from '@angular/material/card';
 import {HttpClientModule} from "@angular/common/http";
 import {MatButtonModule} from "@angular/material/button";
 import {Database} from "../../../assets/properties/database";
+import {DetailsComponent} from './details/details.component';
+import {WebRoutes} from "./web.routes";
 
 @NgModule({
   declarations: [
     SectionTopComponent,
-    SectionPropertiesComponent
+    SectionPropertiesComponent,
+    DetailsComponent
   ],
   exports: [
     SectionTopComponent,
@@ -22,6 +25,7 @@ import {Database} from "../../../assets/properties/database";
     Database
   ],
   imports: [
+    WebRoutes,
     CommonModule,
     MatGridListModule,
     MatCardModule,

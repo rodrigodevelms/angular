@@ -20,7 +20,7 @@
         </mat-card-content>
 
         <mat-card-actions class="card-action">
-          <button mat-raised-button color="warn">Detalhes</button>
+          <button mat-raised-button color="warn"><a [routerLink]="['/web/details/',each_properties.id]">Detalhes</a></button>
         </mat-card-actions>
       </mat-card>
 
