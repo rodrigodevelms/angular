@@ -1,13 +1,21 @@
 <div>
   <div class="main">
-
+    <h2 class="description_title">{{immobile.title}}</h2>
     <div *ngFor="let image of immobile.photos">
       <mat-grid-list cols="1">
         <img class="each_image" [src]=image>
       </mat-grid-list>
     </div>
 
-    <p>{{immobile.text}}</p>
+    <div class="detail_description">
+      <p>{{immobile.text}}</p>
+
+      <div class="details_contact">
+        <p>Não aceitamos permuta</p>
+        <p>Ligue agora: 98404 7895</p>
+      </div>
+
+    </div>
 
     <button class="btn_back" mat-raised-button color="warn"><a [routerLink]="['/home']">Voltar</a></button>
   </div>

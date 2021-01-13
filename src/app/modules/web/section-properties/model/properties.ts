@@ -5,5 +5,4 @@ export class Properties {
   subtitle: string
   image: string
   content: string
-  buttonAccessUrl: string
 }
